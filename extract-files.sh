@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=ud710_2h10
+DEVICE=ud710_21c10
 VENDOR=sprd
 
 # Load extract_utils and do some sanity checks
