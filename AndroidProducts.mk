@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_ud710_ctg30air.mk
+    $(LOCAL_DIR)/omni_ud710_2h10.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_ud710_ctg30air-user \
-    omni_ud710_ctg30air-userdebug \
-    omni_ud710_ctg30air-eng
+    omni_ud710_2h10-user \
+    omni_ud710_2h10-userdebug \
+    omni_ud710_2h10-eng

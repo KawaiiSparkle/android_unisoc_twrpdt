@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/iflytek/ud710_ctg30air
+LOCAL_PATH := device/sprd/ud710_2h10

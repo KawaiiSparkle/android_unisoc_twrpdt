@@ -1,4 +1,4 @@
-# Android device tree for iFLYTEK ud710_ctg30air_native (ud710_ctg30air)
+# Android device tree for SPRD ud710_2h10_native (ud710_2h10)
 
 ```
 #

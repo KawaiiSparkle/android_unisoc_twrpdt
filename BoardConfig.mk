@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/iflytek/ud710_ctg30air
+DEVICE_PATH := device/sprd/ud710_2h10
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -29,11 +29,11 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := generic
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := ud710_ctg30air
+TARGET_BOOTLOADER_BOARD_NAME := ud710_2h10
 TARGET_NO_BOOTLOADER := true
 
 # Display
-TARGET_SCREEN_DENSITY := 280
+TARGET_SCREEN_DENSITY := 320
 
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 1
@@ -47,8 +47,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := ud710_ctg30air_defconfig
-TARGET_KERNEL_SOURCE := kernel/iflytek/ud710_ctg30air
+TARGET_KERNEL_CONFIG := ud710_2h10_defconfig
+TARGET_KERNEL_SOURCE := kernel/sprd/ud710_2h10
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

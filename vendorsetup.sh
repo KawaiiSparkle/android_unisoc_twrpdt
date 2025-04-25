@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_ud710_ctg30air-user
-add_lunch_combo omni_ud710_ctg30air-userdebug
-add_lunch_combo omni_ud710_ctg30air-eng
+add_lunch_combo omni_ud710_2h10-user
+add_lunch_combo omni_ud710_2h10-userdebug
+add_lunch_combo omni_ud710_2h10-eng
