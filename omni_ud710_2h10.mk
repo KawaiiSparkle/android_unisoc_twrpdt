@@ -1,6 +1,6 @@
 #
-# Copyright (C) 2023 The Android Open Source Project
-# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2025 The Android Open Source Project
+# Copyright (C) 2025 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -17,13 +17,13 @@ $(call inherit-product, device/sprd/ud710_2h10/device.mk)
 
 PRODUCT_DEVICE := ud710_2h10
 PRODUCT_NAME := omni_ud710_2h10
-PRODUCT_BRAND := sprd
-PRODUCT_MODEL := omni_ud710_2h10
+PRODUCT_BRAND := SPRD
+PRODUCT_MODEL := ud710_2h10_native
 PRODUCT_MANUFACTURER := sprd
 
 PRODUCT_GMS_CLIENTID_BASE := android-sprd
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="ud710_2h10_native_noorca-user 9 PPR1.180610.011 44101 release-keys"
+    PRIVATE_BUILD_DESC="ud710_2h10_native_noorca-user 9 PPR1.180610.011 23411 release-keys"
 
-BUILD_FINGERPRINT := SPRD/ud710_2h10_native_noorca/ud710_2h10:9/PPR1.180610.011/10310118:user/release-keys
+BUILD_FINGERPRINT := SPRD/ud710_2h10_native_noorca/ud710_2h10:9/PPR1.180610.011/06081159:user/release-keys

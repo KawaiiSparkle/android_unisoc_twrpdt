@@ -39,20 +39,20 @@
 /dev/spipe_nr14        0660     media       audio
 /dev/snv_nr            0660     system      system
 
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/l_*       0660     system      system
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/nr_*       0660     system      system
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/pm_sys       0660     system      system
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/miscdata       0660     system      system
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/persist       0660     system      system
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/system       0660     system      system
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/gpsgl       0660     system      root
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/gpsbd       0660     system      root
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/sysdumpdb   0660     system      system
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/l_*       0660     system      system
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/nr_*       0660     system      system
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/pm_sys       0660     system      system
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/miscdata       0660     system      system
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/persist       0660     system      system
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/system       0660     system      system
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/gpsgl       0660     system      root
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/gpsbd       0660     system      root
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/l_agdsp 0600 audioserver audio
+/dev/block/platform/soc/soc:ap-apb/71400000.sdio/by-name/sysdumpdb       0660     system      system
 
-/dev/rpmb0              0660     system      system
 /dev/block/mmcblk1p*    0660     system      system
 /dev/AKM099XX           0660     system      system
-/dev/block/sda19        0660     system      system
+/dev/block/mmcblk0rpmb  0660     system      system
 
 /dev/vser               0660     system      system
 /dev/ttyGS*             0660     system      system
