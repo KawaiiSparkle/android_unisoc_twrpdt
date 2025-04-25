@@ -39,15 +39,15 @@
 /dev/spipe_nr14        0660     media       audio
 /dev/snv_nr            0660     system      system
 
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/l_*       0660     system      system
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/nr_*       0660     system      system
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/pm_sys       0660     system      system
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/miscdata       0660     system      system
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/persist       0660     system      system
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/system       0660     system      system
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/gpsgl       0660     system      root
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/gpsbd       0660     system      root
-/dev/block/platform/soc/soc:ap-apb/71900000.ufs/by-name/sysdumpdb   0660     system      system
+/dev/block/by-name/l_*       0660     system      system
+/dev/block/by-name/nr_*       0660     system      system
+/dev/block/by-name/pm_sys       0660     system      system
+/dev/block/by-name/miscdata       0660     system      system
+/dev/block/by-name/persist       0660     system      system
+/dev/block/by-name/system       0660     system      system
+/dev/block/by-name/gpsgl       0660     system      root
+/dev/block/by-name/gpsbd       0660     system      root
+/dev/block/by-name/sysdumpdb   0660     system      system
 
 /dev/rpmb0              0660     system      system
 /dev/block/mmcblk1p*    0660     system      system
@@ -106,3 +106,28 @@
 /sys/class/gpio_test unexport 0220 root system
 
 /dev/rtc*             0666     system      system
+
+/dev/iio:device*          0660     system     root
+
+/sys/class/sprd_sensorhub/sensor_hub          batch                      0660         system root
+/sys/class/sprd_sensorhub/sensor_hub          enable                     0660         system root
+/sys/class/sprd_sensorhub/sensor_hub          flush                      0660         system root
+/sys/class/sprd_sensorhub/sensor_hub          version                    0660         system root
+/sys/class/sprd_sensorhub/sensor_hub          logctl                     0660         system root
+/sys/class/sprd_sensorhub/sensor_hub          calibrator_cmd             0660         system root
+/sys/class/sprd_sensorhub/sensor_hub          calibrator_data            0660         system root
+/sys/class/sprd_sensorhub/sensor_hub          op_download                0660         system root
+/sys/class/sprd_sensorhub/sensor_hub          mag_cali_flag              0660         system root
+/sys/class/sprd_sensorhub/sensor_hub          sensorhub                  0660         system root
+/sys/class/sprd_sensorhub/sensor_hub          raw_data_als               0660         system root
+/sys/class/sprd_sensorhub/sensor_hub          raw_data_ps                0660         system root
+/sys/class/sprd_sensorhub/sensor_hub          light_sensor_calibrator    0660         system root
+
+/sys/module/shub_core/parameters              acc_firms                  0660         system root
+/sys/module/shub_core/parameters              mag_firms                  0660         system root
+/sys/module/shub_core/parameters              gryo_firms                 0660         system root
+/sys/module/shub_core/parameters              light_firms                0660         system root
+/sys/module/shub_core/parameters              prox_firms                 0660         system root
+/sys/module/shub_core/parameters              pressure_firms             0660         system root
+/sys/module/firmware_class/parameters         path                       0660         system root
+/sys/module/shub_core/parameters              sensor_fusion_mode         0660         system root

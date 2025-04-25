@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=ud710_2h10
-VENDOR=sprd
+DEVICE=ud710_ctg30air
+VENDOR=iflytek
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
