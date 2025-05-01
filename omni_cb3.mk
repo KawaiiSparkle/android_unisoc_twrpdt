@@ -17,8 +17,8 @@ $(call inherit-product, device/sprd/cb3/device.mk)
 
 PRODUCT_DEVICE := cb3
 PRODUCT_NAME := omni_cb3
-PRODUCT_BRAND := SPRD
-PRODUCT_MODEL := cb3_native
+PRODUCT_BRAND := sprd
+PRODUCT_MODEL := omni_cb3
 PRODUCT_MANUFACTURER := sprd
 
 PRODUCT_GMS_CLIENTID_BASE := android-sprd
