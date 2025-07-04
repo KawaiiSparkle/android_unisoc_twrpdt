@@ -1,11 +1,11 @@
 #
-# Copyright (C) 2023 The Android Open Source Project
-# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2025 The Android Open Source Project
+# Copyright (C) 2025 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/sprd/ud710_2h10
+DEVICE_PATH := device/sprd/sa30pro
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -29,7 +29,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := generic
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := ud710_2h10
+TARGET_BOOTLOADER_BOARD_NAME := sa30pro
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -47,8 +47,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := ud710_2h10_defconfig
-TARGET_KERNEL_SOURCE := kernel/sprd/ud710_2h10
+TARGET_KERNEL_CONFIG := sa30pro_defconfig
+TARGET_KERNEL_SOURCE := kernel/sprd/sa30pro
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -81,7 +81,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 VENDOR_SECURITY_PATCH := 2021-08-01
 
 # Verified Boot
-BOARD_AVB_ENABLE := false
+BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 BOARD_AVB_RECOVERY_KEY_PATH := external/avb/test/data/testkey_rsa4096.pem
 BOARD_AVB_RECOVERY_ALGORITHM := SHA256_RSA4096
