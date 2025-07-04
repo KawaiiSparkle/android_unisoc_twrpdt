@@ -1,2 +1,10 @@
-# android_device_unisoc_2h10
-Device tree generated from KDXF StudentPad T10 (Retail Version) Official Recovery image
+# Android device tree for SPRD sa30_native (sa30)
+
+```
+#
+# Copyright (C) 2025 The Android Open Source Project
+# Copyright (C) 2025 SebaUbuntu's TWRP device tree generator
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+```
